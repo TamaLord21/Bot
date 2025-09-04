@@ -28,7 +28,7 @@ La idea es sencilla: dejar comentarios en una publicación cada cierto tiempo, p
 El cerebro del bot es un bucle `for`, que controla cuántos comentarios se van a hacer. Dentro de ese bucle:
 - Se selecciona un comentario con `random.choice()`.  
 - Se envía con `cl.media_comment(media_id, comentario)`.  
-- Se espera con `time.sleep(random.randint(120, 240))`.  
+- Se espera con `time.sleep(random.randint(30, 60))`.  
 
 ---
 
